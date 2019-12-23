@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_221" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="ua.khpi.oop.kulyk08.Product" id="Product0">
+    <void property="amount">
+     <int>1200</int>
+    </void>
+    <void property="date">
+     <void property="time">
+      <object class="java.util.Date">
+       <long>1576836000000</long>
+      </object>
+     </void>
+    </void>
+    <void id="ProductProperties0" property="item"/>
+    <void property="item">
+     <object idref="ProductProperties0"/>
+    </void>
+    <void property="name">
+     <string>Tomatoes</string>
+    </void>
+    <void property="price">
+     <int>24</int>
+    </void>
+    <void property="unit">
+     <string>kg</string>
+    </void>
+    <void property="weigth">
+     <int>100</int>
+    </void>
+   </object>
+  </void>
+ </object>
+<void class="ua.khpi.oop.kulyk08.Product" id="Field0" method="getField">
+ <string>item</string>
+ <void id="ProductProperties1" method="get">
+  <object idref="Product0"/>
+  <void property="manufacturer">
+   <string>Lakad Matatag</string>
+  </void>
+  <void property="expirationDate">
+   <int>15</int>
+  </void>
+ </void>
+</void>
+<void idref="ProductProperties1"/>
+</java>
