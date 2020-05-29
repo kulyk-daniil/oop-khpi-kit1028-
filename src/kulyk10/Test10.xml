@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_221" class="java.beans.XMLDecoder">
+ <object class="ua.khpi.oop.kulyk10.MyLinkedList">
+  <void property="_head">
+   <object class="ua.khpi.oop.kulyk10.MyLinkedList$Node">
+    <void property="element">
+     <object class="ua.khpi.oop.kulyk10.Product">
+      <void property="amount">
+       <int>400</int>
+      </void>
+      <void property="name">
+       <string>Banana</string>
+      </void>
+      <void property="price">
+       <int>60</int>
+      </void>
+      <void property="receiptDate">
+       <object class="java.util.Date">
+        <long>1314910800000</long>
+       </object>
+      </void>
+      <void property="unit">
+       <string>kg</string>
+      </void>
+     </object>
+    </void>
+    <void property="next">
+     <object class="ua.khpi.oop.kulyk10.MyLinkedList$Node" id="MyLinkedList$Node0">
+      <void property="element">
+       <object class="ua.khpi.oop.kulyk10.Product">
+        <void property="amount">
+         <int>150</int>
+        </void>
+        <void property="name">
+         <string>Bread</string>
+        </void>
+        <void property="price">
+         <int>15</int>
+        </void>
+        <void property="receiptDate">
+         <object class="java.util.Date">
+          <long>1607205600000</long>
+         </object>
+        </void>
+        <void property="unit">
+         <string>bun</string>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="_tail">
+   <object idref="MyLinkedList$Node0"/>
+  </void>
+  <void property="size">
+   <int>2</int>
+  </void>
+ </object>
+</java>

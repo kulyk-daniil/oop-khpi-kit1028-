@@ -1,0 +1,16 @@
+Bread
+Sausages
+Fish
+Cookies
+Jam
+Carrot
+Onion
+Strawberry
+Butter
+Mushroom
+Cucumber
+Tomato
+Potatoes
+Jelly
+Honey
+----

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_221" class="java.beans.XMLDecoder">
+ <object class="ua.khpi.oop.kulyk09.MyLinkedList">
+  <void property="_head">
+   <object class="ua.khpi.oop.kulyk09.MyLinkedList$Node">
+    <void property="element">
+     <string>Tomatoes</string>
+    </void>
+    <void property="next">
+     <object class="ua.khpi.oop.kulyk09.MyLinkedList$Node">
+      <void property="element">
+       <string>Apples</string>
+      </void>
+      <void property="next">
+       <object class="ua.khpi.oop.kulyk09.MyLinkedList$Node">
+        <void property="element">
+         <string>Orange</string>
+        </void>
+        <void property="next">
+         <object class="ua.khpi.oop.kulyk09.MyLinkedList$Node" id="MyLinkedList$Node0">
+          <void property="element">
+           <string>T_shirts</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="_tail">
+   <object idref="MyLinkedList$Node0"/>
+  </void>
+  <void property="size">
+   <int>4</int>
+  </void>
+ </object>
+</java>
